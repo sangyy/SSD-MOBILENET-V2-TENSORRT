@@ -65,10 +65,10 @@ augmentation_config {
 }
 dataset_config {
   data_sources: {
-    tfrecords_path: "/workspace-hekun/mydata/tlt-tensorrt-nano/tfrecords/kitti_trainval/kitti_trainval*"
-    image_directory_path: "/workspace-hekun/mydata/tlt-tensorrt-nano/data/train/"
+    tfrecords_path: "/workspace/tlt_docker_files/mydata/tlt-tensorrt-nano/tfrecords/kitti_trainval/kitti_trainval*"
+    image_directory_path: "/workspace/tlt_docker_files/mydata/tlt-tensorrt-nano/data/training/"
   }
-  image_extension: "JPEG"
+  image_extension: "png"
   target_class_mapping {
       key: "face_mask"
       value: "face_mask"
